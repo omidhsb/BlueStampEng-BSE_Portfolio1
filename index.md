@@ -80,7 +80,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 |:--:|:--:|:--:|:--:|
 | SunFounder Ultimate Starter Kit | What the item is used for | $59.99 | <a href="https://shorturl.at/1DRoX"> Link </a> |
 | Amazon 8-pack of 9V batteries | Power/battery | $12.69 | <a href="https://shorturl.at/HBrm5"> Link </a> |
-| Digital Multimeter | What the item is used for | $9.98 | <a href=""> Link </a> |
+| Digital Multimeter | What the item is used for | $9.98 | <a href="https://shorturl.at/0CSOv"> Link </a> |
 
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
