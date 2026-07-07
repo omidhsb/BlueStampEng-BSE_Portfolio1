@@ -78,9 +78,9 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| SunFounder Ultimate Starter Kit | What the item is used for | $59.99 | <a href="https://shorturl.at/1DRoX"> Link </a> |
+| SunFounder Ultimate Starter Kit | Building the base car | $59.99 | <a href="https://shorturl.at/1DRoX"> Link </a> |
 | Amazon 8-pack of 9V batteries | Power/battery | $12.69 | <a href="https://shorturl.at/HBrm5"> Link </a> |
-| Digital Multimeter | What the item is used for | $9.98 | <a href="https://shorturl.at/0CSOv"> Link </a> |
+| Digital Multimeter | Checking the voltage of batteries | $9.98 | <a href="https://shorturl.at/0CSOv"> Link </a> |
 | Anker USB C to A adapter | Connecting the Arduino to my Macbook Air | $9.18 | <a href="https://shorturl.at/1uAjG"> Link </a> |
 
 # Other Resources/Examples
