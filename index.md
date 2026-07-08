@@ -3,6 +3,8 @@
 
 Hello, I'm Omid and for my project this year I decided to build a self-driving car. I started out with a basic, two wheel chasis. With this design, I used Arduino to manipulate the car and benchmarked it in several races. After evaluating the car, I made some tweaks to help with performance in certain areas that were lacking before.
 
+<!---      --->
+
 
 <!---You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:--->
 <!--- This is an HTML comment in Markdown -->
@@ -55,6 +57,7 @@ For your second milestone, explain what you've worked on since your previous mil
 - What your plan is to complete your project--->
 
 ## Summary
+
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
