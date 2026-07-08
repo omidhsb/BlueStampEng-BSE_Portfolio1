@@ -46,7 +46,6 @@ For your second milestone, explain what you've worked on since your previous mil
 
 # First Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/syKjGWBMcLM?si=NhIhl2jI2TpljYSL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <!---For your first milestone, describe what your project is and how you plan to build it. You can include:
@@ -57,6 +56,7 @@ For your second milestone, explain what you've worked on since your previous mil
 
 ## Summary
 
+In my first milestone, I assembled the basic design for the self-driving car. The car is powered by a single 9V battery, which is connected to the Arduino R3 board by a 9V battery cable. The R3 board provides 5V of power to the mini-breadboard through a red wire and ground is connected by a black wire to the same mini-breadboard. The two yellow TT motors are connected by two wires each to the L9110 module. The module acts as a bridge between the TT motors and the R3 board, communicating the board's commands to the motors effectively. On the other side of the L9110 module, there are six wires in groups of two that connect back to the aforementioned mini-breadboard. Those outgoing wires from the R3 board that I mentioned before (5V and GND) connect to these and complete the link. The orientation of the six wires on the mini-breadboard from the module dictate which way the car will go. To the left and right of the mini-breadboard, there are two IR (Infrared) Object Avoidance Sensors. These sensors use Infrared waves to help avoid objects and prevent crashes. Located on the mini-breadboard, across the center ravine from the previous wires, there is an ultrasonic sensor that can track distance and can help to prevent crashes. Directly below the mini-breadboard, there is a line-tracking module. This module helps to keep the car straight when following a line. That is the detailed breakdown of the basic design for my self-driving car after completing my first milestone. 
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
