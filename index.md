@@ -60,9 +60,8 @@ In my first milestone, I assembled the basic design for the self-driving car. Th
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
-![Headstone Image](<img width="2823" height="2362" alt="circuit_image" src="https://github.com/user-attachments/assets/ac4bc27d-6020-4cf4-ace1-32c20488ee08" />
-)
 
+![Headstone Image](circuit_image.png)
 
 
 # Code
