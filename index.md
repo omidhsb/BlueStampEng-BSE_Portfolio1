@@ -71,15 +71,90 @@ In my first milestone, I assembled the basic design for the self-driving car. Th
 <!--- Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. --->
 
 ```c++
+onst int A_1B = 5;
+const int A_1A = 6;
+const int B_1B = 9;
+const int B_1A = 10;
+
+const int rightIR = 7;
+const int leftIR = 8;
+const int backRightIR = 2;
+const int backLeftIR = 3;
+
 void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
+Serial.begin(9600);
+
+//motor
+pinMode(A_1B, OUTPUT);
+pinMode(A_1A, OUTPUT);
+pinMode(B_1B, OUTPUT);
+pinMode(B_1A, OUTPUT);
+
+//IR obstacle
+pinMode(leftIR, INPUT);
+pinMode(rightIR, INPUT);
+pinMode(backLeftIR, INPUT);
+pinMode(backRightIR, INPUT);
+
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
 
+int left = digitalRead(leftIR); // 0: Obstructed 1: Empty
+int right = digitalRead(rightIR);
+int backLeftState = digitalRead(backLeftIR);
+int backRightState = digitalRead(backRightIR);
+int speed = 150;
+
+if (!left && right) {
+if (!backLeft) {
+moveForward(speed);
+} else {
+backLeft(speed);
+}
+} else if (left && !right) {
+if (!backRight) {
+moveForward(speed);
+} else {
+backRight(speed);
+}
+} else if (!left && !right) {
+if (!backLeft && !backRight) {
+moveForward(speed);
+} else {
+moveBackward(speed);
+}
+} else {
+moveForward(speed);
+}
+}
+
+void moveForward(int speed) {
+analogWrite(A_1B, 0);
+analogWrite(A_1A, speed);
+analogWrite(B_1B, speed);
+analogWrite(B_1A, 0);
+}
+
+void moveBackward(int speed) {
+analogWrite(A_1B, speed);
+analogWrite(A_1A, 0);
+analogWrite(B_1B, 0);
+analogWrite(B_1A, speed);
+}
+
+void backLeft(int speed) {
+analogWrite(A_1B, speed);
+analogWrite(A_1A, 0);
+analogWrite(B_1B, 0);
+analogWrite(B_1A, 0);
+}
+
+void backRight(int speed) {
+analogWrite(A_1B, 0);
+analogWrite(A_1A, 0);
+analogWrite(B_1B, 0);
+analogWrite(B_1A, speed);
 }
 ```
 
@@ -93,12 +168,12 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Amazon 8-pack of 9V batteries | Power/battery | $12.69 | <a href="https://shorturl.at/HBrm5"> Link </a> |
 | Digital Multimeter | Checking the voltage of batteries | $9.98 | <a href="https://shorturl.at/0CSOv"> Link </a> |
 | Anker USB C to A adapter | Connecting the Arduino to my Macbook Air | $9.18 | <a href="https://shorturl.at/1uAjG"> Link </a> |
-| IR Infrared Obstacle Avoidance Sensor | Rear sensors for self-driving car | $9.99 | <a href="https://shorturl.at/mRN3r"> Link </a> |
+| IR "Infrared" Obstacle Avoidance Sensor | Rear sensors for self-driving car | $9.99 | <a href="https://shorturl.at/mRN3r"> Link </a> |
 
 # Resources
-<!---One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/) 
+<!---One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.--->
+- [Resource 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
+- [Resource 2](https://sviatil0.github.io/Sviatoslav_BSE/)
+- [Resource 3](https://arneshkumar.github.io/arneshbluestamp/) 
 
-To watch the BSE tutorial on how to create a portfolio, click here. --->
+<!--- To watch the BSE tutorial on how to create a portfolio, click here. --->
