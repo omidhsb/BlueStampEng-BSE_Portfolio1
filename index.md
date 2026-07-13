@@ -3,7 +3,9 @@
 
 Hello, I'm Omid and for my project this year I decided to build a self-driving car. I started out with a basic, two wheel chasis. With this design, I used Arduino to manipulate the car and benchmarked it in several races. After evaluating the car, I made some tweaks to help with performance in certain areas that were lacking before.
 
-<!---      --->
+<!---  Self Driving Cars are becoming more and more common, with companies like Waymo and Zoox providing taxi services with self driving cars, while Tesla allows users to not have to stress about driving when behind the wheel. That's why I chose to build a self driving car for my project, using the Sunfounder Ultimate Starter Kit as a base. Once the car was built, it was able to operate hands free using the Arduino IDE. I added two extra IR sensors to the rear to allow the car to also prevent crashes when reversing all on it's own.   --->
+
+<!--- My Self Driving Car can autonomously navigate obstacles without any user output, cleverly utilizing four IR "Infrared" sensors. Noticing that the base self driving car from SunFounder's Ultimate Starter kit lacked any sensors on the rear, which is a hazard when reversing, I implented two new IR sensors on the back left and right of the car. During this project, I further deepened my understanding in electrical engineering and robotics and honed in on many of my skills.   --->
 
 
 <!---You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:--->
@@ -30,6 +32,8 @@ For your final milestone, explain the outcome of your project. Key details to in
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
 --->
+
+## Summary
 
 
 
@@ -172,8 +176,8 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 # Resources
 <!---One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.--->
-- [Resource 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
-- [Resource 2](https://sviatil0.github.io/Sviatoslav_BSE/)
+- [Resource 1](https://shorturl.at/6DsLe)
+- [Resource 2]([https://sviatil0.github.io/Sviatoslav_BSE/](https://app.cirkitdesigner.com/))
 - [Resource 3](https://arneshkumar.github.io/arneshbluestamp/) 
 
 <!--- To watch the BSE tutorial on how to create a portfolio, click here. --->
