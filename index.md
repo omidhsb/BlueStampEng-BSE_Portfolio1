@@ -75,7 +75,7 @@ In my first milestone, I assembled the basic design for the self-driving car. Th
 <!--- Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. --->
 
 ```c++
-onst int A_1B = 5;
+const int A_1B = 5;
 const int A_1A = 6;
 const int B_1B = 9;
 const int B_1A = 10;
