@@ -69,6 +69,7 @@ In my first milestone, I assembled the basic design for the self-driving car. Th
 
 
 ![Headstone Image](circuit_image.png)
+![Headstone Image]()
 
 
 # Code
