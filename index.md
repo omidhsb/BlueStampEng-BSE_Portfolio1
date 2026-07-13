@@ -5,7 +5,7 @@ Hello, I'm Omid and for my project this year I decided to build a self-driving c
 
 <!---  Self Driving Cars are becoming more and more common, with companies like Waymo and Zoox providing taxi services with self driving cars, while Tesla allows users to not have to stress about driving when behind the wheel. That's why I chose to build a self driving car for my project, using the Sunfounder Ultimate Starter Kit as a base. Once the car was built, it was able to operate hands free using the Arduino IDE. I added two extra IR sensors to the rear to allow the car to also prevent crashes when reversing all on it's own.   --->
 
-<!--- My Self Driving Car can autonomously navigate obstacles without any user output, cleverly utilizing four IR "Infrared" sensors. Noticing that the base self driving car from SunFounder's Ultimate Starter kit lacked any sensors on the rear, which is a hazard when reversing, I implented two new IR sensors on the back left and right of the car. During this project, I further deepened my understanding in electrical engineering and robotics and honed in on many of my skills.   --->
+<!--- My modified version of the Self Driving Car can autonomously navigate obstacles without any user output, cleverly utilizing four IR "Infrared" sensors. Noticing that the base self driving car from SunFounder's Ultimate Starter kit lacked any sensors on the rear, which is a hazard when reversing, I implented two new IR sensors on the back left and right of the car. During this project, I further deepened my understanding in electrical engineering and robotics and honed in on many of my skills.   --->
 
 
 <!---You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:--->
