@@ -173,6 +173,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Digital Multimeter | Checking the voltage of batteries | $9.98 | <a href="https://shorturl.at/0CSOv"> Link </a> |
 | Anker USB C to A adapter | Connecting the Arduino to my Macbook Air | $9.18 | <a href="https://shorturl.at/1uAjG"> Link </a> |
 | IR "Infrared" Obstacle Avoidance Sensor | Rear sensors for self-driving car | $9.99 | <a href="https://shorturl.at/mRN3r"> Link </a> |
+| 4 sets tt motor with leads | Replacements for motors and wheels | $9.69 | <a href="https://shorturl.at/ImE4p"> Link </a> |
 
 # Resources
 <!---One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.--->
