@@ -1,11 +1,11 @@
 # Self-Driving Car
 <!--- Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails! --->
 
-Hello, I'm Omid and for my project this year I decided to build a self-driving car. I started out with a basic, two wheel chasis. With this design, I used Arduino to manipulate the car and benchmarked it in several races. After evaluating the car, I made some tweaks to help with performance in certain areas that were lacking before.
+  My modified version of the Self Driving Car can autonomously navigate obstacles without any user output, cleverly utilizing four IR "Infrared" sensors. Noticing that the base self driving car from SunFounder's Ultimate Starter kit lacked any sensors on the rear, which is a hazard when reversing, I implented two new IR sensors on the back left and right of the car. During this project, I further deepened my understanding in electrical engineering and robotics and honed in on many of my skills.
+
+
 
 <!---  Self Driving Cars are becoming more and more common, with companies like Waymo and Zoox providing taxi services with self driving cars, while Tesla allows users to not have to stress about driving when behind the wheel. That's why I chose to build a self driving car for my project, using the Sunfounder Ultimate Starter Kit as a base. Once the car was built, it was able to operate hands free using the Arduino IDE. I added two extra IR sensors to the rear to allow the car to also prevent crashes when reversing all on it's own.   --->
-
-<!--- My modified version of the Self Driving Car can autonomously navigate obstacles without any user output, cleverly utilizing four IR "Infrared" sensors. Noticing that the base self driving car from SunFounder's Ultimate Starter kit lacked any sensors on the rear, which is a hazard when reversing, I implented two new IR sensors on the back left and right of the car. During this project, I further deepened my understanding in electrical engineering and robotics and honed in on many of my skills.   --->
 
 
 <!---You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:--->
