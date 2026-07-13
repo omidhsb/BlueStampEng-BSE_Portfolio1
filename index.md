@@ -179,6 +179,6 @@ Don't forget to place the link of where to buy each component inside the quotati
 <!---One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.--->
 - [Resource 1](https://shorturl.at/6DsLe)
 - [Resource 2](https://app.cirkitdesigner.com/)
-- [Resource 3](https://arneshkumar.github.io/arneshbluestamp/) 
+- [Resource 3](https://www.shorturl.at/shortener.php) 
 
 <!--- To watch the BSE tutorial on how to create a portfolio, click here. --->
