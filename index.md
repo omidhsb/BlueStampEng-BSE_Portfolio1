@@ -76,18 +76,30 @@ In my first milestone, I assembled the basic design for the self-driving car. Th
 <!--- Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. --->
 
 ```c++
+#include <EEPROM.h>
+
+float leftOffset = 1.0;
+float rightOffset = 1.0;
+
 const int A_1B = 5;
 const int A_1A = 6;
 const int B_1B = 9;
 const int B_1A = 10;
 
-const int rightIR = 7;
-const int leftIR = 8;
-const int backRightIR = 2;
-const int backLeftIR = 3;
+const int rightIR = 2;
+const int leftIR = 7;
+const int backRightIR = 12;
+const int backLeftIR = 13;
+
+bool reversing = false;
 
 void setup() {
 Serial.begin(9600);
+
+EEPROM.write(0, 100); //write the offset to the left motor
+EEPROM.write(1, 56); //write the offset to the right motor
+rightOffset = EEPROM.read(0) * 0.01; //read the offset
+leftOffset = EEPROM.read(1) * 0.01;//read the offset
 
 //motor
 pinMode(A_1B, OUTPUT);
@@ -105,47 +117,46 @@ pinMode(backRightIR, INPUT);
 
 void loop() {
 
-int left = digitalRead(leftIR); // 0: Obstructed 1: Empty
+int left = digitalRead(leftIR);
 int right = digitalRead(rightIR);
 int backLeftState = digitalRead(backLeftIR);
 int backRightState = digitalRead(backRightIR);
-int speed = 150;
+int speed = 255;
 
-if (!left && right) {
-if (!backLeft) {
-moveForward(speed);
-} else {
-backLeft(speed);
-}
-} else if (left && !right) {
-if (!backRight) {
-moveForward(speed);
-} else {
-backRight(speed);
-}
-} else if (!left && !right) {
-if (!backLeft && !backRight) {
+if (reversing) {
+
+if (!backLeftState || !backRightState) {
+reversing = false;
 moveForward(speed);
 } else {
 moveBackward(speed);
 }
+
+} else {
+
+if (!left || !right) {
+reversing = true;
+moveBackward(speed);
 } else {
 moveForward(speed);
 }
+
 }
+}
+
 
 void moveForward(int speed) {
 analogWrite(A_1B, 0);
-analogWrite(A_1A, speed);
-analogWrite(B_1B, speed);
+analogWrite(A_1A, int(speed * leftOffset));
+analogWrite(B_1B, int(speed * rightOffset));
 analogWrite(B_1A, 0);
 }
 
 void moveBackward(int speed) {
-analogWrite(A_1B, speed);
+analogWrite(A_1B, int(speed * leftOffset));
 analogWrite(A_1A, 0);
 analogWrite(B_1B, 0);
-analogWrite(B_1A, speed);
+analogWrite(B_1A, int(speed * rightOffset));
 }
 
 void backLeft(int speed) {
