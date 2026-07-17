@@ -29,8 +29,8 @@
 
 ## Summary
 
-For my third and final milestone, 
-
+For my third and final milestone, I installed two rear infrared (IR) sensors because one aspect of the base car's design that I felt was especially lacking was its rear safety system. By installing these two rear IR sensors and pairing them with the existing two front IR sensors, I gave the self-driving car a full field of view, allowing it to increase its autonomy and prevent crashes much more effectively than before.
+To test whether the car could truly prevent crashes from all sides, I placed it in a hexagonal arena and tested it thoroughly. Not a single crash or scrape occurred, proving that the self-driving car could successfully navigate the course on its own. I had a lot of fun working on this project, and I learned much more about Arduino programming and wiring. I look forward to applying what I learned to similar projects in the future.
 # Second Milestone
 
 <!--- **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
@@ -48,8 +48,7 @@ For your second milestone, explain what you've worked on since your previous mil
 
 ## Summary
 
-In my second milestone, I installed and utilized two IR "Infrared" sensors to make the self driving car be able to follow my hand on its own. When my hand is placed in front of the self driving car, the car will follow it closely, adjusting for any changes in the placement of my hand. When my hand is removed, the car will begin to reverse until the hand is once again replaced in front of the car once again. Looking towards my third and final milestone, I will install and use two rear IR sensors, installed as modifications, to allow my car to be able to prevent crashes from all sides.
-
+For my second milestone, I installed and programmed two infrared (IR) sensors to allow my self-driving car to follow my hand automatically. When I place my hand in front of the car, it detects my hand and follows it, constantly adjusting its movement as I move my hand around. If I remove my hand, the car automatically begins reversing until it detects my hand in front of it again. For my third and final milestone, I plan to add two more IR sensors to the back of the car as a modification to the original design. These rear sensors will help the car detect obstacles behind it, allowing it to avoid crashes from every direction and making it safer and more reliable overall.
 # First Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/syKjGWBMcLM?si=NhIhl2jI2TpljYSL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
