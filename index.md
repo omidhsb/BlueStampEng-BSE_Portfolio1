@@ -29,7 +29,7 @@
 
 ## Summary
 
-
+For my third and final milestone, 
 
 # Second Milestone
 
@@ -47,6 +47,8 @@ For your second milestone, explain what you've worked on since your previous mil
 
 
 ## Summary
+
+In my second milestone, I installed and utilized two IR "Infrared" sensors to make the self driving car be able to follow my hand on its own. When my hand is placed in front of the self driving car, the car will follow it closely, adjusting for any changes in the placement of my hand. When my hand is removed, the car will begin to reverse until the hand is once again replaced in front of the car once again. Looking towards my third and final milestone, I will install and use two rear IR sensors, installed as modifications, to allow my car to be able to prevent crashes from all sides.
 
 # First Milestone
 
